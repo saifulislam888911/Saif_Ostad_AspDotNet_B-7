@@ -1,0 +1,33 @@
+# -------------------- C Sharp (start) --------------------
+
+# Visual Studio ফাইল ও ফোল্ডার
+.vs/
+*.user
+*.suo
+*.VC.db
+
+# বিল্ড আউটপুট
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet প্যাকেজ ফোল্ডার
+*.nupkg
+packages/
+
+# Rider IDE সাপোর্ট ফাইল
+.idea/
+
+# ঐচ্ছিক: টেস্ট আউটপুট
+TestResults/
+
+# ঐচ্ছিক: লগ ও টেম্প ফাইল
+*.log
+*.tmp
+
+# OS স্পেসিফিক
+.DS_Store
+Thumbs.db
+
+# -------------------- C Sharp (end) --------------------
