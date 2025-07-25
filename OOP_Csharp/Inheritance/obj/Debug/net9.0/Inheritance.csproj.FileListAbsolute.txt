@@ -1,0 +1,14 @@
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\bin\Debug\net9.0\Inheritance.exe
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\bin\Debug\net9.0\Inheritance.deps.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\bin\Debug\net9.0\Inheritance.runtimeconfig.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\bin\Debug\net9.0\Inheritance.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\bin\Debug\net9.0\Inheritance.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\Inheritance.AssemblyInfoInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\Inheritance.AssemblyInfo.cs
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\Inheritance.csproj.CoreCompileInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\Inheritance.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\refint\Inheritance.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\Inheritance.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\Inheritance.genruntimeconfig.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Inheritance\obj\Debug\net9.0\ref\Inheritance.dll

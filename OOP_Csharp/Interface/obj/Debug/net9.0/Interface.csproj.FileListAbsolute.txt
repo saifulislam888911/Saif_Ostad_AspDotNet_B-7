@@ -1,0 +1,14 @@
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\bin\Debug\net9.0\Interface.exe
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\bin\Debug\net9.0\Interface.deps.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\bin\Debug\net9.0\Interface.runtimeconfig.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\bin\Debug\net9.0\Interface.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\bin\Debug\net9.0\Interface.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\Interface.AssemblyInfoInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\Interface.AssemblyInfo.cs
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\Interface.csproj.CoreCompileInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\Interface.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\refint\Interface.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\Interface.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\Interface.genruntimeconfig.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Interface\obj\Debug\net9.0\ref\Interface.dll

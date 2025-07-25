@@ -1,0 +1,14 @@
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\Encapsulation.AssemblyInfoInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\Encapsulation.AssemblyInfo.cs
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\Encapsulation.csproj.CoreCompileInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\bin\Debug\net9.0\Encapsulation.exe
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\bin\Debug\net9.0\Encapsulation.deps.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\bin\Debug\net9.0\Encapsulation.runtimeconfig.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\bin\Debug\net9.0\Encapsulation.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\bin\Debug\net9.0\Encapsulation.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\Encapsulation.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\refint\Encapsulation.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\Encapsulation.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\Encapsulation.genruntimeconfig.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Encapsulation\obj\Debug\net9.0\ref\Encapsulation.dll

@@ -1,0 +1,14 @@
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\bin\Debug\net9.0\Abstraction.exe
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\bin\Debug\net9.0\Abstraction.deps.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\bin\Debug\net9.0\Abstraction.runtimeconfig.json
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\bin\Debug\net9.0\Abstraction.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\bin\Debug\net9.0\Abstraction.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\Abstraction.AssemblyInfoInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\Abstraction.AssemblyInfo.cs
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\Abstraction.csproj.CoreCompileInputs.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\Abstraction.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\refint\Abstraction.dll
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\Abstraction.pdb
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\Abstraction.genruntimeconfig.cache
+D:\HP\Progressing\Ostad\ASP DOT NET\B-7\Module 4\Assignment 1\OOP_Csharp\Abstraction\obj\Debug\net9.0\ref\Abstraction.dll
