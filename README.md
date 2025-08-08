@@ -6,17 +6,188 @@ This repo is being used for Class-Works and Assignments and Live-Tests (From Ost
 Title : 
  
  
- # Exam Week-0 : 
+ # Exam Week-0 : Practice Week Assignment
 (Assignment on Exam-Week-0)
 
 
-# Assignment-0 :
+# Assignment-2 :
 Requirements / Questions : 
 
-# Project :
-Title : 
+" First, Run this SQL script to create the tables in the database:
 
-Summary : 
+--Schema:
+
+--[Students] ---< [Enrollments] >--- [Courses] ---< [ClassSchedules] >--- [Instructors]
+--                             \                               
+--                              >--- [Departments]
+--                            
+--[Instructors] ---< [InstructorDepartments] >--- [Departments]
+
+-- Drop and recreate database if needed
+DROP DATABASE IF EXISTS StudentPracticeDB;
+GO
+
+CREATE DATABASE StudentPracticeDB;
+GO
+
+USE StudentPracticeDB;
+GO
+
+-- Students Table
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY IDENTITY(1,1),
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    Gender CHAR(1),
+    DateOfBirth DATE,
+    Email NVARCHAR(100),
+    EnrollmentDate DATE
+);
+
+-- Courses Table
+CREATE TABLE Courses (
+    CourseID INT PRIMARY KEY IDENTITY(1,1),
+    CourseName NVARCHAR(100),
+    CourseCode NVARCHAR(20),
+    Credits INT,
+    DepartmentID INT
+);
+
+-- Instructors Table
+CREATE TABLE Instructors (
+    InstructorID INT PRIMARY KEY IDENTITY(1,1),
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    Email NVARCHAR(100),
+    HireDate DATE
+);
+
+-- Enrollments Table (Many-to-Many)
+CREATE TABLE Enrollments (
+    EnrollmentID INT PRIMARY KEY IDENTITY(1,1),
+    StudentID INT FOREIGN KEY REFERENCES Students(StudentID),
+    CourseID INT FOREIGN KEY REFERENCES Courses(CourseID),
+    EnrollmentDate DATE,
+    Grade CHAR(2)
+);
+
+-- Departments Table
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY IDENTITY(1,1),
+    DepartmentName NVARCHAR(100),
+    Office NVARCHAR(10),
+    Budget DECIMAL(10,2)
+);
+
+-- Instructor-Department (Many-to-Many)
+CREATE TABLE InstructorDepartments (
+    InstructorID INT FOREIGN KEY REFERENCES Instructors(InstructorID),
+    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID),
+    PRIMARY KEY (InstructorID, DepartmentID)
+);
+
+-- Class Schedule Table
+CREATE TABLE ClassSchedules (
+    ScheduleID INT PRIMARY KEY IDENTITY(1,1),
+    CourseID INT FOREIGN KEY REFERENCES Courses(CourseID),
+    InstructorID INT FOREIGN KEY REFERENCES Instructors(InstructorID),
+    ClassDay VARCHAR(10),
+    StartTime TIME,
+    EndTime TIME,
+    Room NVARCHAR(10)
+);
+
+-- Seed Departments
+INSERT INTO Departments (DepartmentName, Office, Budget) VALUES
+('Computer Science', 'C101', 100000.00),
+('Mathematics', 'M202', 75000.00),
+('Physics', 'P303', 50000.00),
+('Business Administration', 'B404', 90000.00);
+
+-- Seed Courses
+INSERT INTO Courses (CourseName, CourseCode, Credits, DepartmentID) VALUES
+('Database Systems', 'CS101', 3, 1),
+('Programming in C#', 'CS102', 4, 1),
+('Calculus I', 'M101', 3, 2),
+('Linear Algebra', 'M102', 3, 2),
+('Classical Mechanics', 'P101', 4, 3),
+('Marketing Basics', 'B101', 3, 4),
+('Advanced SQL Queries', 'CS201', 3, 1),
+('Business Analytics', 'B201', 3, 4);
+
+-- Seed Instructors
+INSERT INTO Instructors (FirstName, LastName, Email, HireDate) VALUES
+('Emily', 'Clark', 'emily.clark@example.com', '2018-03-01'),
+('Frank', 'Miller', 'frank.miller@example.com', '2017-06-15'),
+('Grace', 'Hopper', 'grace.hopper@example.com', '2019-11-20'),
+('Henry', 'Ford', 'henry.ford@example.com', '2020-02-10'),
+('Isabel', 'Newton', 'isabel.newton@example.com', '2021-04-25');
+
+-- Map Instructors to Departments
+INSERT INTO InstructorDepartments VALUES (1, 1), (2, 2), (3, 3), (4, 4), (1, 2), (5, 1);
+
+-- Seed Students
+INSERT INTO Students (FirstName, LastName, Gender, DateOfBirth, Email, EnrollmentDate) VALUES
+('Alice', 'Johnson', 'F', '2000-01-15', 'alice.j@example.com', '2021-08-01'),
+('Bob', 'Smith', 'M', '1999-07-23', 'bob.s@example.com', '2021-08-01'),
+('Charlie', 'Lee', 'M', '2001-02-17', 'charlie.l@example.com', '2022-01-10'),
+('Diana', 'Brown', 'F', '1998-11-30', 'diana.b@example.com', '2020-09-01'),
+('Ethan', 'Hunt', 'M', '1997-03-25', 'ethan.h@example.com', '2020-09-01'),
+('Fatima', 'Ali', 'F', '2002-06-19', 'fatima.a@example.com', '2022-08-01'),
+('George', 'Williams', 'M', '1998-12-01', 'george.w@example.com', '2021-01-05'),
+('Hannah', 'Kim', 'F', '1999-11-12', 'hannah.k@example.com', '2022-01-01');
+
+-- Seed Enrollments (20+ records for variation)
+INSERT INTO Enrollments (StudentID, CourseID, EnrollmentDate, Grade) VALUES
+(1, 1, '2021-08-10', 'A'),
+(1, 2, '2021-08-10', 'B'),
+(1, 7, '2022-01-15', 'A'),
+(2, 1, '2021-08-10', 'C'),
+(2, 3, '2021-08-10', 'B'),
+(2, 4, '2022-01-10', 'A'),
+(3, 2, '2022-01-20', 'A'),
+(3, 5, '2022-01-20', 'B'),
+(3, 8, '2022-08-01', 'A'),
+(4, 6, '2020-09-15', 'B'),
+(4, 7, '2021-08-10', 'A'),
+(5, 1, '2020-09-10', 'A'),
+(5, 4, '2021-01-10', 'B'),
+(6, 2, '2022-08-15', 'A'),
+(6, 8, '2022-08-15', 'B'),
+(7, 3, '2021-02-10', 'C'),
+(7, 5, '2021-02-10', 'A'),
+(8, 6, '2022-01-10', 'A'),
+(8, 1, '2022-01-10', 'A'),
+(8, 7, '2022-08-01', 'B');
+
+-- Seed Class Schedules
+INSERT INTO ClassSchedules (CourseID, InstructorID, ClassDay, StartTime, EndTime, Room) VALUES
+(1, 1, 'Monday', '09:00', '10:30', 'C101'),
+(2, 5, 'Tuesday', '10:00', '11:30', 'C102'),
+(3, 2, 'Wednesday', '08:30', '10:00', 'M201'),
+(4, 2, 'Thursday', '10:00', '11:30', 'M202'),
+(5, 3, 'Friday', '14:00', '15:30', 'P303'),
+(6, 4, 'Monday', '13:00', '14:30', 'B404'),
+(7, 1, 'Wednesday', '15:00', '16:30', 'C103'),
+(8, 4, 'Thursday', '14:00', '15:30', 'B405');
+
+Task:
+Write SQL queries to:
+1. List all students.
+2. Show students' full names and emails.
+3. Find all courses worth more than 3 credits.
+4. Get students who enrolled after January 1, 2022.
+5. Show all female students.
+6. Order students by last name descending.
+7. Count total students.
+8. Count number of courses per department.
+9. Show all courses with their department names.
+10. List all students and the courses they are enrolled in. "
+
+# Project :
+Title : SQL and Microsoft SQL Server.
+
+Summary : SQL, Queries and Microsoft SQL Server.
 
 
 Check Branches for Class-Works and Assignments and Live-Tests.
