@@ -1,0 +1,16 @@
+Ques_Assignment-2_Task
+
+Task:
+
+Write SQL queries to:
+
+1. List all students.
+2. Show students' full names and emails.
+3. Find all courses worth more than 3 credits.
+4. Get students who enrolled after January 1, 2022.
+5. Show all female students.
+6. Order students by last name descending.
+7. Count total students.
+8. Count number of courses per department.
+9. Show all courses with their department names.
+10. List all students and the courses they are enrolled in.
